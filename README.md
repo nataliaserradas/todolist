@@ -1,13 +1,23 @@
-#Projeto TODO LIST desenvolvido utilizando react + vite
+## Projeto TODO LIST desenvolvido utilizando react + vite
 
 Para executar o projeto é necessario o node (versão testada v21.5.0) + npm instalado no computador.
 
-[source,bash]
-----
+Para baixar as dependencias do node
+```
 npm install
-npm run dev
-----
+```
 
+Em seguida para executar
+```
+npm run dev
+```
+
+
+### Lista de libs utilizadas
+
+* typescript
+* @phosphor-icons/react
+* vitejs
 
 
 
