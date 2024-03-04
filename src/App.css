@@ -1,0 +1,52 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.icon_button {
+  border-radius: 3px;
+  color: #808080
+}
+
+.icon_button:hover {
+  background-color: #eee;
+  color: #202020
+  
+}
+
+.icon_button>svg {
+  vertical-align: bottom
+}
+
+.plus_add_button {
+  color: #808080;
+  font-size: 14px;
+  padding: 0 0 8px;
+  text-align: left;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%
+}
+
+.plus_add_button .icon_add {
+  align-items: center;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 17px;
+  justify-content: center;
+  margin-right: 11px;
+  transform: translateY(8px);
+  vertical-align: 7px;
+  width: 17px
+}
+
+.todo-container {
+  background-color: #eee;
+}
+
+.todo-header {
+  background-color: #eee;
+}

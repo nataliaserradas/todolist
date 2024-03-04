@@ -1,0 +1,63 @@
+
+  .todo-header h2 {
+    margin: 0;
+    color: #333; 
+  }
+  
+  .task-count {
+    background:rgb(227, 227, 227);
+    color: #666;
+  }
+  
+  .task-list {
+    padding: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .task-status {
+    height: 20px;
+    width: 20px;
+    border: 2px solid red; /* Color can be changed */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .task-name {
+    flex-grow: 1;
+    color: #333;
+    
+  }
+
+  .task-description {
+    flex-grow: 1;
+    color: #605e5e;
+    font-size: 14px;
+    
+  }
+  
+  .task-entry {
+    color: #888;
+    font-size: 0.8em;
+  }   
+  
+  .add-task {
+    text-align: center;
+  }
+  
+  .add-task-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  .add-task-btn:hover {
+    text-decoration: underline;
+  }
